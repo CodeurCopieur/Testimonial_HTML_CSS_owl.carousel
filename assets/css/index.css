@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.stn-temoignage {
+    background: #006BB2;
+    padding: 40px 0px;
+}
+
+.ctr-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.ctr_title1 {
+    text-align: center;
+    color: #D8985F;
+    font-size: 24px;
+}
+
+.ctr_title1:after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: #D8985F;
+    border-radius: 1em;
+    margin: 40px auto;
+    display: block;
+}
+
+.card-temoignage {
+    background: #BF2C47;
+    padding: 40px;
+    overflow: hidden;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.ctr-infos {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.cli-img {
+    width: 30%;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 25%; 
+}
+
+.cli-name {
+    font-size: 12px;
+    color: #333; 
+}
+
+.cli-name span {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #D8985F;
+}
+
+.card-temoignage p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 20px;
+}
